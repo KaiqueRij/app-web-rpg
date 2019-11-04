@@ -1,0 +1,12 @@
+INSERT INTO classes(nome) VALUES ('Bárbaro');
+INSERT INTO classes(nome) VALUES ('Bardo');
+INSERT INTO classes(nome) VALUES ('Bruxo');
+INSERT INTO classes(nome) VALUES ('Clérigo');
+INSERT INTO classes(nome) VALUES ('Druida');
+INSERT INTO classes(nome) VALUES ('Feiticeiro');
+INSERT INTO classes(nome) VALUES ('Guerreiro');
+INSERT INTO classes(nome) VALUES ('Ladino');
+INSERT INTO classes(nome) VALUES ('Mago');
+INSERT INTO classes(nome) VALUES ('Monge');
+INSERT INTO classes(nome) VALUES ('Paladino');
+INSERT INTO classes(nome) VALUES ('Patrulheiro');

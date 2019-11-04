@@ -1,0 +1,23 @@
+/* Layout */
+
+html, body, #home {
+	height: 100%;
+}
+
+/* Estilização do Carousel */
+.centralizar-texto {
+	text-align: center;
+}
+
+/* Estilização dos Links */
+a:hover, a:link, a:visited, a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Configuração para o botão flutuante de adicionar */
+.botao-flutuante {
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+}

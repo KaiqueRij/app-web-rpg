@@ -1,0 +1,44 @@
+<form>
+	<div class="container">
+
+		<!-- Card do input do nome -->
+		<div class="card mt-3">
+			<div class="card-header">Qual o nome do teu personagem?</div>
+			<div class="card-body">
+				<div class="form-group">
+					<input type="text" name="nome" class="form-control" placeholder="Nome do Personagem" required>
+				</div>
+			</div>
+		</div>
+
+		<!-- Card do combobox da raça -->
+		<div class="card mt-3">
+			<div class="card-header">Raça</div>
+			<div class="card-body">
+				<div class="form-group">
+					<select class="form-control">
+						<option>Selecione a Raça</option>
+						<?php foreach ($this->view->racas as $key => $raca) { ?>
+							<option><?= $raca->__get('nome') ?></option>
+						<?php } ?>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="card mt-3">
+			<div class="card-header">Classe</div>
+			<div class="card-body">
+				<div class="form-group">
+					<select class="form-control">
+						<option>Selecione a Classe</option>
+						<?php foreach ($this->view->classes as $key => $classe) { ?>
+							<option><?= $classe->__get('nome') ?></option>
+						<?php } ?>
+					</select>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</form>

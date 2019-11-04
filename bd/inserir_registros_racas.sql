@@ -1,0 +1,9 @@
+INSERT INTO racas(nome) VALUES ('Anão');
+INSERT INTO racas(nome) VALUES ('Elfo');
+INSERT INTO racas(nome) VALUES ('Halfling');
+INSERT INTO racas(nome) VALUES ('Humano');
+INSERT INTO racas(nome) VALUES ('Draconato');
+INSERT INTO racas(nome) VALUES ('Gnomo');
+INSERT INTO racas(nome) VALUES ('Meio-Elfo');
+INSERT INTO racas(nome) VALUES ('Meio-Orc');
+INSERT INTO racas(nome) VALUES ('Tiefling');
